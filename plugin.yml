@@ -1,0 +1,19 @@
+name: AegisPM
+main: aegis\Aegis
+version: 1.0.0
+api: 5.44.0
+src-namespace-prefix: aegis
+author: EraseMC
+website: https://github.com/EraseMC/Aegis-PM
+description: PocketMine-MP bridge for the Aegis anticheat
+load: POSTWORLD
+permissions:
+  aegis.command:
+    description: Use the Aegis administration command
+    default: op
+  aegis.alerts:
+    description: Receive Aegis detection alerts
+    default: op
+  aegis.bypass:
+    description: Bypass Aegis alerts and punishments
+    default: false

@@ -1,0 +1,12 @@
+connection:
+  host: 127.0.0.1
+  port: 19140
+
+punishments:
+  enabled: false
+  ban-duration-seconds: 1209600
+
+alerts:
+  enabled-by-default: true
+  cooldown-milliseconds: 1000
+  log: true

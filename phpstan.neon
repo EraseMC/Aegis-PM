@@ -1,0 +1,47 @@
+parameters:
+	level: 8
+	phpVersion: 80300
+	paths:
+		- src
+	tmpDir: .phpstan-cache
+	ignoreErrors:
+		-
+			identifier: missingType.iterableValue
+			path: src/network/Connection.php
+			count: 2
+		-
+			identifier: missingType.iterableValue
+			path: src/network/Frame.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/network/FrameBuffer.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/telemetry/PlayerMirror.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/session/PlayerSession.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/session/PlayerView.php
+			count: 3
+		-
+			identifier: missingType.iterableValue
+			path: src/session/SessionRegistry.php
+			count: 2
+		-
+			identifier: missingType.iterableValue
+			path: src/telemetry/PacketEncoder.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/telemetry/PacketObserver.php
+			count: 1
+		-
+			identifier: missingType.iterableValue
+			path: src/telemetry/WorldSampler.php
+			count: 1
